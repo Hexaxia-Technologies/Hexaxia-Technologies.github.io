@@ -24,19 +24,24 @@ So why keep it to ourselves?
 
 This blog isn't marketing. It's documentation of what we're learning as we solve real infrastructure problems.
 
-**Systems Engineering**
+### Systems Engineering
+
 Deep dives into infrastructure design, automation, and optimization. How we approach specific challenges, what worked, what didn't, and why. Real scenarios from actual engagements with details changed to protect client confidentiality.
 
-**Security**
+### Security
+
 Best practices for zero trust architectures, security hardening, and compliance. Not just theory, but what actually works when you're implementing it.
 
-**Cloud & Hybrid Solutions**
+### Cloud & Hybrid Solutions
+
 Real world experiences with cloud migrations and hybrid infrastructure. The messy parts that vendor documentation doesn't cover.
 
-**DevOps & Automation**
+### DevOps & Automation
+
 Tools, techniques, and workflows that improve development velocity. Honest takes on what we use. Not vendor pitches. Not affiliate marketing. Just whether something actually solved the problem we needed it to solve.
 
-**Case Studies & Lessons Learned**
+### Case Studies & Lessons Learned
+
 Anonymized stories from client engagements and the mistakes we made along the way. Because the best way to learn is from someone else's expensive lesson.
 
 ## Who This Is For
