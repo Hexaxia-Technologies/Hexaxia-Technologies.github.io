@@ -1,0 +1,51 @@
+# Hexaxia Technologies Blog
+title: Hexaxia Technologies Blog
+description: Technical insights from the Hexaxia Technologies team
+url: "https://hexaxia-technologies.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author defaults
+author:
+  name: Hexaxia Technologies
+  url: https://hexaxia.tech
+
+# Permalink structure
+permalink: /:year/:month/:day/:title/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+
+# Collections
+collections:
+  authors:
+    output: true
+    permalink: /authors/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Hexaxia Technologies"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
