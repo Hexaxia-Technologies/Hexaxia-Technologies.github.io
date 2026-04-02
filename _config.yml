@@ -12,9 +12,7 @@ plugins:
   - jekyll-seo-tag
 
 # Author defaults
-author:
-  name: Hexaxia Technologies
-  url: https://hexaxia.tech
+author: Hexaxia Technologies
 
 # Permalink structure
 permalink: /:year/:month/:day/:title/
