@@ -9,6 +9,8 @@ image: /assets/images/das-document-addressing-standard.jpg
 excerpt: "Folders quit at scale and Johnny Decimal runs out of room. So I built DAS, an open-source Document Addressing Standard that gives every document a permanent address a human can read and an agent can resolve. It is not a faster way to find files. It is the floor that holds when the retrieval layer is gone."
 ---
 
+![A dissolving retrieval-layer cloud above a solid, lit grid of document tiles, each stamped with a permanent decimal address](/assets/images/das-document-addressing-standard.jpg)
+
 Last year I was building an ETL pipeline and hit a wall I did not expect. Not the extraction, not the transforms. The naming. Every document coming off the transformation end needed a place to live and a name that said where it lived, and both a human and a machine were going to be reading those names constantly. I could not find a convention that served both without one of them losing.
 
 Today I am releasing what I built to fix that. It is called DAS, the Document Addressing Standard, and it is open source under MIT. Repo, spec, and CLI are at [github.com/Hexaxia-Labs/hexaxia-das](https://github.com/Hexaxia-Labs/hexaxia-das). This is the story of why it exists and what it is actually for, which is not the thing I thought it was for when I started.
