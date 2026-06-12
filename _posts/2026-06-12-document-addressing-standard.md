@@ -5,11 +5,11 @@ date: 2026-06-12 00:00:00 -0400
 categories: engineering
 tags: [open-source, document-addressing-standard, das, agent-memory, knowledge-management, rag]
 author: Hexaxia Technologies
-image: /assets/images/das-document-addressing-standard.jpg
+image: https://hexaxia-technologies.github.io/assets/images/das-document-addressing-standard.jpg
 excerpt: "Folders quit at scale and Johnny Decimal runs out of room. So I built DAS, an open-source Document Addressing Standard that gives every document a permanent address a human can read and an agent can resolve. It is not a faster way to find files. It is the floor that holds when the retrieval layer is gone."
 ---
 
-![A dissolving retrieval-layer cloud above a solid, lit grid of document tiles, each stamped with a permanent decimal address](/assets/images/das-document-addressing-standard.jpg)
+![A dissolving retrieval-layer cloud above a solid, lit grid of document tiles, each stamped with a permanent decimal address](https://hexaxia-technologies.github.io/assets/images/das-document-addressing-standard.jpg)
 
 Last year I was building an ETL pipeline and hit a wall I did not expect. Not the extraction, not the transforms. The naming. Every document coming off the transformation end needed a place to live and a name that said where it lived, and both a human and a machine were going to be reading those names constantly. I could not find a convention that served both without one of them losing.
 
